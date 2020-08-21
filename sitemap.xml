@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/link/index.html</loc>
-    
-    <lastmod>2020-08-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2020-08-20</lastmod>
@@ -24,13 +17,6 @@
   
   <url>
     <loc>http://yoursite.com/tags/index.html</loc>
-    
-    <lastmod>2020-08-20</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/linl/index.html</loc>
     
     <lastmod>2020-08-20</lastmod>
     
@@ -53,7 +39,7 @@
 
   <url>
     <loc>http://yoursite.com/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -61,7 +47,7 @@
   
   <url>
     <loc>http://yoursite.com/tags/about/</loc>
-    <lastmod>2020-08-20</lastmod>
+    <lastmod>2020-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
