@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>linux之shell</title>
+      <link href="/2020/08/25/linux%E4%B9%8Bshell/"/>
+      <url>/2020/08/25/linux%E4%B9%8Bshell/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>$# 是传给脚本的参数个数<br>$0 是脚本本身的名字<br>$1 是传递给该shell脚本的第一个参数<br>$2 是传递给该shell脚本的第二个参数<br>$@ 是传给脚本的所有参数的列表<br>$* 是以一个单字符串显示所有向脚本传递的参数，与位置变量不同，参数可超过9个</p><p>$$ 是脚本运行的当前进程ID号<br>$? 是显示最后命令的退出状态，0表示没有错误，其他表示有错误</p></blockquote><h2 id="1-if-then语句"><a href="#1-if-then语句" class="headerlink" title="1. if-then语句"></a>1. if-then语句</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">if test command</span><br><span class="line">then commands</span><br><span class="line">else commands</span><br><span class="line">fi</span><br></pre></td></tr></table></figure><p>test检测：<br>数字<br>n1 -eq n2 检查n1是否与n2相等<br>n1 -ge n2 检查n1是否大于或等于n2<br>n1 -gt n2 检查n1是否大于n2<br>n1 -le n2 检查n1是否小于或等于n2<br>n1 -lt n2 检查n1是否小于n2<br>n1 -ne n2 检查n1是否不等于n2</p><p>字符串<br>-n str1 检查str1的长度是否非0<br>-z str1 检查str1的长度是否为0</p><h2 id="2-for循环"><a href="#2-for循环" class="headerlink" title="2. for循环"></a>2. for循环</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">for var in list do</span><br><span class="line">commands</span><br><span class="line">done</span><br></pre></td></tr></table></figure><p>例子：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">file&#x3D;“states”</span><br><span class="line">IFS&#x3D;$&#39;\n’   #能读空行的值</span><br><span class="line">for state in $(cat $file)</span><br><span class="line">do</span><br><span class="line">   echo &quot;Visit beautiful $state&quot;</span><br><span class="line">done</span><br></pre></td></tr></table></figure><br>跳出循环：break、continue</p><h2 id="3-创建函数"><a href="#3-创建函数" class="headerlink" title="3. 创建函数"></a>3. 创建函数</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">function name &#123; commands</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="高级函数"><a href="#高级函数" class="headerlink" title="高级函数"></a>高级函数</h1><h2 id="4-sed命令"><a href="#4-sed命令" class="headerlink" title="4. sed命令"></a>4. sed命令</h2><p>Sed编辑器被称为流编辑器，与普通的交互式文本编辑器想法。<br>1）在命令行定义编辑器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ Echo “this is a test” | sed ’s&#x2F;test&#x2F;big test’</span><br></pre></td></tr></table></figure><br>This is a big test<br>或者<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sed ’s&#x2F;dog&#x2F;cat&#x2F;‘ data.txt</span><br></pre></td></tr></table></figure><br>Sed编辑器并不会修改文本文件的数据<br>2）在命令行使用多个编辑器<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sed -e ’s&#x2F;brown&#x2F;green&#x2F;; s&#x2F;dog&#x2F;cat’ data.txt</span><br></pre></td></tr></table></figure><br>必须要用；分割<br>3）从文件中读取编辑器命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sed -f script1.sed datat.txt</span><br></pre></td></tr></table></figure><br>4）写入文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Sed ‘1,2w test.txt’ datat.txt</span><br></pre></td></tr></table></figure><br>将test.txt文件的前两行打印到data.txt文件中</p><p>5、awk命令<br>1）格式化输出<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">awk &#39;&#123;printf &quot;%-8s %-10s\n&quot;,$1,$4&#125;&#39; log.txt</span><br><span class="line">&#96;&#96;</span><br><span class="line">2）使用，分割</span><br><span class="line">&#96;&#96;&#96;linux</span><br><span class="line">awk &#39;BEGIN&#123;FS&#x3D;&quot;,&quot;&#125; &#123;print $1,$2&#125;&#39;  log.txt</span><br></pre></td></tr></table></figure><br>3）条件语句<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">awk &#39;BEGIN &#123;</span><br><span class="line">    num &#x3D; 11; </span><br><span class="line">    if (num % 2 &#x3D;&#x3D; 0) printf &quot;%d 是偶数\n&quot;, num; </span><br><span class="line">    else printf &quot;%d 是奇数\n&quot;, num </span><br><span class="line">&#125;&#39;</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>投资观</title>
       <link href="/2020/08/21/%E6%8A%95%E8%B5%84%E8%A7%82/"/>
       <url>/2020/08/21/%E6%8A%95%E8%B5%84%E8%A7%82/</url>
@@ -48,9 +69,9 @@
       
         <tags>
             
-            <tag> python </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> python </tag>
             
         </tags>
       
