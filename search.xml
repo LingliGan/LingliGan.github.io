@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> linux </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> linux </tag>
             
         </tags>
       
@@ -75,9 +75,9 @@
       
         <tags>
             
-            <tag> 编程 </tag>
-            
             <tag> python </tag>
+            
+            <tag> 编程 </tag>
             
         </tags>
       
@@ -120,25 +120,6 @@
             <tag> 评分卡 </tag>
             
             <tag> 风控模型 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>简介</title>
-      <link href="/2020/08/20/about/"/>
-      <url>/2020/08/20/about/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>非常喜欢一句格言：</p><blockquote><p>我读的书愈多，就愈亲近世界，愈明了生活的意义，愈觉得生活的重要。 —— 高尔基</p></blockquote><p>欢迎大家浏览相关博文，虽然现在博文较少，后续我会持续更新，希望对大家都有帮助。</p><p>来到这里，我们可以谈谈相关技术，也可以聊聊职业规划，谈谈人生，毕竟我们不能一直追求项目进度，我们也需要合适的放松，开阔我们的人生视角不是吗？<br>本人喜欢和大家一起探讨一切新鲜事物，话题可以关于金融、IT技术、生活感悟等等，共同分享，共同进步。<br>本人目前就职在北京某个互联网金融公司，从事信贷风险管理，在开发策略的同时，也对风险指标进行数据分析。</p><p>最喜欢的一本书《平凡的世界》，有机会谈谈读后感<br>最喜欢的一部电影《肖申克的救赎》<br>最喜欢的动画《犬夜叉》<br>在这里你可以领略到自己喜欢的事情，和平时所需要学习的一些技术知识，我们共同进步，梦想依旧。<br>希望我们保持初心，洗净铅华，归来仍是少年。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> about </tag>
             
         </tags>
       

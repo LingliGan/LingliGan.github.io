@@ -35,9 +35,9 @@
       <category term="shell" scheme="http://yoursite.com/categories/shell/"/>
     
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
-    
       <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
     
   </entry>
   
@@ -109,9 +109,9 @@
     
     
     
-      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -164,30 +164,6 @@
       <category term="评分卡" scheme="http://yoursite.com/tags/%E8%AF%84%E5%88%86%E5%8D%A1/"/>
     
       <category term="风控模型" scheme="http://yoursite.com/tags/%E9%A3%8E%E6%8E%A7%E6%A8%A1%E5%9E%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>简介</title>
-    <link href="http://yoursite.com/2020/08/20/about/"/>
-    <id>http://yoursite.com/2020/08/20/about/</id>
-    <published>2020-08-20T09:23:16.000Z</published>
-    <updated>2020-08-20T09:42:36.076Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>非常喜欢一句格言：</p><blockquote><p>我读的书愈多，就愈亲近世界，愈明了生活的意义，愈觉得生活的重要。 —— 高尔基</p></blockquote><p>欢迎大家浏览相关博文，虽然现在博文较少，后续我会持续更新，希望对大家都有帮助。</p><p>来到这里，我们可以谈谈相关技术，也可以聊聊职业规划，谈谈人生，毕竟我们不能一直追求项目进度，我们也需要合适的放松，开阔我们的人生视角不是吗？<br>本人喜欢和大家一起探讨一切新鲜事物，话题可以关于金融、IT技术、生活感悟等等，共同分享，共同进步。<br>本人目前就职在北京某个互联网金融公司，从事信贷风险管理，在开发策略的同时，也对风险指标进行数据分析。</p><p>最喜欢的一本书《平凡的世界》，有机会谈谈读后感<br>最喜欢的一部电影《肖申克的救赎》<br>最喜欢的动画《犬夜叉》<br>在这里你可以领略到自己喜欢的事情，和平时所需要学习的一些技术知识，我们共同进步，梦想依旧。<br>希望我们保持初心，洗净铅华，归来仍是少年。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-      <category term="about" scheme="http://yoursite.com/tags/about/"/>
     
   </entry>
   
