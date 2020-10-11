@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2020/10/11/hive%E6%93%8D%E4%BD%9C/</loc>
+    
+    <lastmod>2020-10-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/08/25/linux%E4%B9%8Bshell/</loc>
     
     <lastmod>2020-10-11</lastmod>
@@ -109,6 +116,27 @@
 
   
   <url>
+    <loc>http://yoursite.com/tags/hive/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/linux/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/tags/%E6%84%9F%E6%82%9F/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -123,27 +151,6 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/tags/linux/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/tags/%E6%8A%95%E8%B5%84/</loc>
-    <lastmod>2020-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yoursite.com/tags/python/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -152,6 +159,13 @@
   
   <url>
     <loc>http://yoursite.com/tags/%E5%8C%97%E6%BC%82/</loc>
+    <lastmod>2020-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/%E6%8A%95%E8%B5%84/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
