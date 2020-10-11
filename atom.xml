@@ -5,9 +5,9 @@
   <subtitle>Levin-lee的个人博客</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://levin-lee.github.io/"/>
   <updated>2020-10-11T13:23:13.946Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://levin-lee.github.io/</id>
   
   <author>
     <name>Levin lee</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>hive操作</title>
-    <link href="http://yoursite.com/2020/10/11/hive%E6%93%8D%E4%BD%9C/"/>
-    <id>http://yoursite.com/2020/10/11/hive%E6%93%8D%E4%BD%9C/</id>
+    <link href="http://levin-lee.github.io/2020/10/11/hive%E6%93%8D%E4%BD%9C/"/>
+    <id>http://levin-lee.github.io/2020/10/11/hive%E6%93%8D%E4%BD%9C/</id>
     <published>2020-10-11T13:02:40.000Z</published>
     <updated>2020-10-11T13:23:13.946Z</updated>
     
@@ -33,16 +33,16 @@
     
     
     
-      <category term="hive" scheme="http://yoursite.com/tags/hive/"/>
+      <category term="hive" scheme="http://levin-lee.github.io/tags/hive/"/>
     
-      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="http://levin-lee.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2020/09/18/hello-world/"/>
-    <id>http://yoursite.com/2020/09/18/hello-world/</id>
+    <link href="http://levin-lee.github.io/2020/09/18/hello-world/"/>
+    <id>http://levin-lee.github.io/2020/09/18/hello-world/</id>
     <published>2020-09-18T08:00:38.700Z</published>
     <updated>2020-09-18T08:00:38.700Z</updated>
     
@@ -63,8 +63,8 @@
   
   <entry>
     <title>linux之shell</title>
-    <link href="http://yoursite.com/2020/08/25/linux%E4%B9%8Bshell/"/>
-    <id>http://yoursite.com/2020/08/25/linux%E4%B9%8Bshell/</id>
+    <link href="http://levin-lee.github.io/2020/08/25/linux%E4%B9%8Bshell/"/>
+    <id>http://levin-lee.github.io/2020/08/25/linux%E4%B9%8Bshell/</id>
     <published>2020-08-25T12:08:03.000Z</published>
     <updated>2020-10-11T12:57:11.605Z</updated>
     
@@ -77,19 +77,19 @@
     </summary>
     
     
-      <category term="shell" scheme="http://yoursite.com/categories/shell/"/>
+      <category term="shell" scheme="http://levin-lee.github.io/categories/shell/"/>
     
     
-      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="http://levin-lee.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
-      <category term="linux" scheme="http://yoursite.com/tags/linux/"/>
+      <category term="linux" scheme="http://levin-lee.github.io/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>投资观</title>
-    <link href="http://yoursite.com/2020/08/21/%E6%8A%95%E8%B5%84%E8%A7%82/"/>
-    <id>http://yoursite.com/2020/08/21/%E6%8A%95%E8%B5%84%E8%A7%82/</id>
+    <link href="http://levin-lee.github.io/2020/08/21/%E6%8A%95%E8%B5%84%E8%A7%82/"/>
+    <id>http://levin-lee.github.io/2020/08/21/%E6%8A%95%E8%B5%84%E8%A7%82/</id>
     <published>2020-08-21T12:00:15.000Z</published>
     <updated>2020-08-21T12:01:31.414Z</updated>
     
@@ -106,16 +106,16 @@
     
     
     
-      <category term="感悟" scheme="http://yoursite.com/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="感悟" scheme="http://levin-lee.github.io/tags/%E6%84%9F%E6%82%9F/"/>
     
-      <category term="投资" scheme="http://yoursite.com/tags/%E6%8A%95%E8%B5%84/"/>
+      <category term="投资" scheme="http://levin-lee.github.io/tags/%E6%8A%95%E8%B5%84/"/>
     
   </entry>
   
   <entry>
     <title>我的北漂</title>
-    <link href="http://yoursite.com/2020/08/21/%E6%88%91%E7%9A%84%E5%8C%97%E6%BC%82/"/>
-    <id>http://yoursite.com/2020/08/21/%E6%88%91%E7%9A%84%E5%8C%97%E6%BC%82/</id>
+    <link href="http://levin-lee.github.io/2020/08/21/%E6%88%91%E7%9A%84%E5%8C%97%E6%BC%82/"/>
+    <id>http://levin-lee.github.io/2020/08/21/%E6%88%91%E7%9A%84%E5%8C%97%E6%BC%82/</id>
     <published>2020-08-21T11:50:42.000Z</published>
     <updated>2020-10-11T12:53:53.601Z</updated>
     
@@ -129,14 +129,14 @@
     
     
     
-      <category term="北漂" scheme="http://yoursite.com/tags/%E5%8C%97%E6%BC%82/"/>
+      <category term="北漂" scheme="http://levin-lee.github.io/tags/%E5%8C%97%E6%BC%82/"/>
     
   </entry>
   
   <entry>
     <title>python高级编程</title>
-    <link href="http://yoursite.com/2020/08/21/python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/"/>
-    <id>http://yoursite.com/2020/08/21/python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/</id>
+    <link href="http://levin-lee.github.io/2020/08/21/python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/"/>
+    <id>http://levin-lee.github.io/2020/08/21/python%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/</id>
     <published>2020-08-21T11:32:32.000Z</published>
     <updated>2020-08-21T11:36:15.750Z</updated>
     
@@ -153,16 +153,16 @@
     
     
     
-      <category term="编程" scheme="http://yoursite.com/tags/%E7%BC%96%E7%A8%8B/"/>
+      <category term="编程" scheme="http://levin-lee.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+      <category term="python" scheme="http://levin-lee.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>向前走，向后走</title>
-    <link href="http://yoursite.com/2020/08/21/%E5%90%91%E5%89%8D%E8%B5%B0%EF%BC%8C%E5%90%91%E5%90%8E%E8%B5%B0/"/>
-    <id>http://yoursite.com/2020/08/21/%E5%90%91%E5%89%8D%E8%B5%B0%EF%BC%8C%E5%90%91%E5%90%8E%E8%B5%B0/</id>
+    <link href="http://levin-lee.github.io/2020/08/21/%E5%90%91%E5%89%8D%E8%B5%B0%EF%BC%8C%E5%90%91%E5%90%8E%E8%B5%B0/"/>
+    <id>http://levin-lee.github.io/2020/08/21/%E5%90%91%E5%89%8D%E8%B5%B0%EF%BC%8C%E5%90%91%E5%90%8E%E8%B5%B0/</id>
     <published>2020-08-21T11:06:56.000Z</published>
     <updated>2020-10-11T12:54:50.077Z</updated>
     
@@ -179,16 +179,16 @@
     
     
     
-      <category term="感悟" scheme="http://yoursite.com/tags/%E6%84%9F%E6%82%9F/"/>
+      <category term="感悟" scheme="http://levin-lee.github.io/tags/%E6%84%9F%E6%82%9F/"/>
     
-      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="http://levin-lee.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>评分卡</title>
-    <link href="http://yoursite.com/2020/08/21/%E8%AF%84%E5%88%86%E5%8D%A1/"/>
-    <id>http://yoursite.com/2020/08/21/%E8%AF%84%E5%88%86%E5%8D%A1/</id>
+    <link href="http://levin-lee.github.io/2020/08/21/%E8%AF%84%E5%88%86%E5%8D%A1/"/>
+    <id>http://levin-lee.github.io/2020/08/21/%E8%AF%84%E5%88%86%E5%8D%A1/</id>
     <published>2020-08-21T11:01:02.000Z</published>
     <updated>2020-08-21T11:24:42.560Z</updated>
     
@@ -205,9 +205,9 @@
     
     
     
-      <category term="评分卡" scheme="http://yoursite.com/tags/%E8%AF%84%E5%88%86%E5%8D%A1/"/>
+      <category term="评分卡" scheme="http://levin-lee.github.io/tags/%E8%AF%84%E5%88%86%E5%8D%A1/"/>
     
-      <category term="风控模型" scheme="http://yoursite.com/tags/%E9%A3%8E%E6%8E%A7%E6%A8%A1%E5%9E%8B/"/>
+      <category term="风控模型" scheme="http://levin-lee.github.io/tags/%E9%A3%8E%E6%8E%A7%E6%A8%A1%E5%9E%8B/"/>
     
   </entry>
   
