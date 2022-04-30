@@ -272,9 +272,9 @@
     
     
     
-      <category term="编程" scheme="http://levin-lee.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="hive" scheme="http://levin-lee.github.io/tags/hive/"/>
+    
+      <category term="编程" scheme="http://levin-lee.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -372,9 +372,9 @@
     
     
     
-      <category term="python" scheme="http://levin-lee.github.io/tags/python/"/>
-    
       <category term="编程" scheme="http://levin-lee.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="python" scheme="http://levin-lee.github.io/tags/python/"/>
     
   </entry>
   
