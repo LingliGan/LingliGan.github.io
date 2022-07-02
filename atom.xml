@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lingligan.github.io/"/>
-  <updated>2022-07-02T03:39:10.009Z</updated>
+  <updated>2022-07-01T14:50:53.820Z</updated>
   <id>http://lingligan.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>My 2022</title>
-    <link href="http://lingligan.github.io/2022/07/01/My-2022-1/"/>
-    <id>http://lingligan.github.io/2022/07/01/My-2022-1/</id>
-    <published>2022-07-02T03:39:09.000Z</published>
-    <updated>2022-07-02T03:39:10.009Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>My blog</title>
