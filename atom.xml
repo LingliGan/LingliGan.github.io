@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>LingliGan</title>
   
-  <subtitle>LingliGan personal blog</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lingligan.github.io/"/>
@@ -269,9 +269,9 @@
     
     
     
-      <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="hive" scheme="http://LingliGan.github.io/tags/hive/"/>
+    
+      <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -346,9 +346,9 @@
     
     
     
-      <category term="python" scheme="http://LingliGan.github.io/tags/python/"/>
-    
       <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="python" scheme="http://LingliGan.github.io/tags/python/"/>
     
   </entry>
   
