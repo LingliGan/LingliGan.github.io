@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://lingligan.github.io/"/>
-  <updated>2022-04-30T15:03:08.000Z</updated>
+  <updated>2022-07-02T03:39:10.009Z</updated>
   <id>http://lingligan.github.io/</id>
   
   <author>
@@ -17,13 +17,79 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>My 2022</title>
+    <link href="http://lingligan.github.io/2022/07/01/My-2022-1/"/>
+    <id>http://lingligan.github.io/2022/07/01/My-2022-1/</id>
+    <published>2022-07-02T03:39:09.000Z</published>
+    <updated>2022-07-02T03:39:10.009Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My blog</title>
+    <link href="http://lingligan.github.io/2022/07/01/My-blog/"/>
+    <id>http://lingligan.github.io/2022/07/01/My-blog/</id>
+    <published>2022-07-01T14:50:53.000Z</published>
+    <updated>2022-07-01T14:50:53.820Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My 2022</title>
+    <link href="http://lingligan.github.io/2022/07/01/My-2022/"/>
+    <id>http://lingligan.github.io/2022/07/01/My-2022/</id>
+    <published>2022-07-01T14:34:04.000Z</published>
+    <updated>2022-07-01T14:34:04.386Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>RBF模型分析报告</title>
     <link href="http://lingligan.github.io/2022/04/30/RBF%E6%A8%A1%E5%9E%8B%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/"/>
     <id>http://lingligan.github.io/2022/04/30/RBF%E6%A8%A1%E5%9E%8B%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A/</id>
     <published>2022-05-01T03:18:42.000Z</published>
     <updated>2022-04-30T15:03:08.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="描述性统计"><a href="#描述性统计" class="headerlink" title="描述性统计"></a>描述性统计</h1><ul><li><p>会员开通的年龄分布<br>从图中可以看出，在2012年以前，会员迅速递增，在13年断崖式下跌<br><img src= "/img/loading.gif" data-lazy-src="/img/year.png" alt="向左走，向右走"></p></li><li><p>会员的性别分布<br>从图中我们知道，男性会员占据了77.1%的比例<br><img src= "/img/loading.gif" data-lazy-src="/img/gender.png" alt="向左走，向右走"></p></li><li><p>会员的年龄分布<br>会员的年龄分布基本在40岁左右<br><img src= "/img/loading.gif" data-lazy-src="/img/age.png" alt="向左走，向右走"></p></li></ul><h1 id="K-means-建模聚类结果"><a href="#K-means-建模聚类结果" class="headerlink" title="K-means 建模聚类结果"></a>K-means 建模聚类结果</h1><p>通过LRBFC数据构建k-means的结果如下，分成了5类客户<br><img src= "/img/loading.gif" data-lazy-src="/img/k-means.png" alt="向左走，向右走"></p><p>客户与LRBFC数据结果的热力图如下，表中数据为相关性<br><img src= "/img/loading.gif" data-lazy-src="/img/k-corr.png" alt="向左走，向右走"></p><h1 id="GMM-建模聚类结果"><a href="#GMM-建模聚类结果" class="headerlink" title="GMM 建模聚类结果"></a>GMM 建模聚类结果</h1><p>GMM建模的结果如下，我们可以看出GMM能过较好区分5种类别的客户<br><img src= "/img/loading.gif" data-lazy-src="/img/gmm.png" alt="向左走，向右走"></p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1 id="描述性统计"><a href="#描述性统计" class="headerlink" title="描述性统计"></a>描述性统计</h1><ul><li><p>会员开通的年龄分布<br>从图中可以看出，在2012年以前，会员迅速递增，在13年断崖式下跌<br><img src="/img/year.png" alt="向左走，向右走"></p></li><li><p>会员的性别分布<br>从图中我们知道，男性会员占据了77.1%的比例<br><img src="/img/gender.png" alt="向左走，向右走"></p></li><li><p>会员的年龄分布<br>会员的年龄分布基本在40岁左右<br><img src="/img/age.png" alt="向左走，向右走"></p></li></ul><h1 id="K-means-建模聚类结果"><a href="#K-means-建模聚类结果" class="headerlink" title="K-means 建模聚类结果"></a>K-means 建模聚类结果</h1><p>通过LRBFC数据构建k-means的结果如下，分成了5类客户<br><img src="/img/k-means.png" alt="向左走，向右走"></p><p>客户与LRBFC数据结果的热力图如下，表中数据为相关性<br><img src="/img/k-corr.png" alt="向左走，向右走"></p><h1 id="GMM-建模聚类结果"><a href="#GMM-建模聚类结果" class="headerlink" title="GMM 建模聚类结果"></a>GMM 建模聚类结果</h1><p>GMM建模的结果如下，我们可以看出GMM能过较好区分5种类别的客户<br><img src="/img/gmm.png" alt="向左走，向右走"></p>]]></content>
     
     <summary type="html">
     
@@ -203,9 +269,9 @@
     
     
     
-      <category term="hive" scheme="http://LingliGan.github.io/tags/hive/"/>
-    
       <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="hive" scheme="http://LingliGan.github.io/tags/hive/"/>
     
   </entry>
   
@@ -280,9 +346,9 @@
     
     
     
-      <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="python" scheme="http://LingliGan.github.io/tags/python/"/>
+    
+      <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -293,7 +359,7 @@
     <published>2020-08-22T00:06:56.000Z</published>
     <updated>2020-10-11T12:54:50.000Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>很喜欢台湾作家几米画的单行本漫画《向左走，向右走》，文字中处处透露着温暖，插画清新自然，很舒服。</p><p>书中描绘着，在一座陌生的城市中，寂寞孤独的一对男女因为偶然一次缘分在公园相遇，互诉衷肠，两个落寞的心彼此感受着对方的温暖。然而，天空开始下着暴雨，俩人不得不分开，在临别前女生给男生留下写着电话的字条，就各自匆忙回家。不幸的是，字条由于雨水打湿而模糊了字迹，辨认不出号码。女生就这么焦急地等待男生的电话，而男生由于打湿字条而懊悔，满怀希望去公园等待，每次只能失望而归。时间缓缓流逝，又回到当初孤生一人的状态，生活仿佛又恢复了平静，只有他们自己知道，他们的心结了厚厚一层霜。生活在同个城市，两人有很多次机会相遇，但一人习惯向左，一人习惯向右，总是插肩而过，仿佛命运给他们开了无情的玩笑，注定无法相遇。又过了一段时间，女生打算离开这个让她伤心的城市。女生早早起床，把行李收拾好，打算在日出来临之时逃离这座城市，恰好遇上同样外出的男生。这一次，命运开始重新眷顾他们，在最重要的时刻他们重新相遇，那一刻，初升的阳光温柔地打在他们身上，暖暖的，融化了心里的霜。<br><img src= "/img/loading.gif" data-lazy-src="/img/left.jpg" alt="向左走，向右走"><br>这本书其实带给我很深的感动。以前在学校，身边总是围绕着很多东西，心里不觉得孤单，但等我真正走出社会，我才发现，在这钢筋水泥包裹着的城市，心慢慢开始学会忍受孤独。慢慢地开始习惯一个人，习惯一个人吃饭、一个人逛街、一个人看电影，一个人学会忍受孤独，内心开始慢慢封闭，终于我们会发现原来一个人也会慢慢习惯。</p><p>本书带给我的另一个感受是，人的一生会错过许许多多的人，有的人你会跟他相识相知，然后一别再也不见；有的人仅仅是打一个照面，就再也没有出现在你的世界中。每一天我们都在上演这离别戏码，可能是你身边的爱人和家人，也有可能是司机、路人、乘客。每次离别时，我们总以为还有机会再见，下次会有勇气把“我喜欢你”说给心底的那人听，但往往离别之后，再也无法遇见，未说出口的表白成为永久的遗憾。</p><p>一别之后，两地相悬，怎知说那三四载，谁知是一生憾事。</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p>很喜欢台湾作家几米画的单行本漫画《向左走，向右走》，文字中处处透露着温暖，插画清新自然，很舒服。</p><p>书中描绘着，在一座陌生的城市中，寂寞孤独的一对男女因为偶然一次缘分在公园相遇，互诉衷肠，两个落寞的心彼此感受着对方的温暖。然而，天空开始下着暴雨，俩人不得不分开，在临别前女生给男生留下写着电话的字条，就各自匆忙回家。不幸的是，字条由于雨水打湿而模糊了字迹，辨认不出号码。女生就这么焦急地等待男生的电话，而男生由于打湿字条而懊悔，满怀希望去公园等待，每次只能失望而归。时间缓缓流逝，又回到当初孤生一人的状态，生活仿佛又恢复了平静，只有他们自己知道，他们的心结了厚厚一层霜。生活在同个城市，两人有很多次机会相遇，但一人习惯向左，一人习惯向右，总是插肩而过，仿佛命运给他们开了无情的玩笑，注定无法相遇。又过了一段时间，女生打算离开这个让她伤心的城市。女生早早起床，把行李收拾好，打算在日出来临之时逃离这座城市，恰好遇上同样外出的男生。这一次，命运开始重新眷顾他们，在最重要的时刻他们重新相遇，那一刻，初升的阳光温柔地打在他们身上，暖暖的，融化了心里的霜。<br><img src="/img/left.jpg" alt="向左走，向右走"><br>这本书其实带给我很深的感动。以前在学校，身边总是围绕着很多东西，心里不觉得孤单，但等我真正走出社会，我才发现，在这钢筋水泥包裹着的城市，心慢慢开始学会忍受孤独。慢慢地开始习惯一个人，习惯一个人吃饭、一个人逛街、一个人看电影，一个人学会忍受孤独，内心开始慢慢封闭，终于我们会发现原来一个人也会慢慢习惯。</p><p>本书带给我的另一个感受是，人的一生会错过许许多多的人，有的人你会跟他相识相知，然后一别再也不见；有的人仅仅是打一个照面，就再也没有出现在你的世界中。每一天我们都在上演这离别戏码，可能是你身边的爱人和家人，也有可能是司机、路人、乘客。每次离别时，我们总以为还有机会再见，下次会有勇气把“我喜欢你”说给心底的那人听，但往往离别之后，再也无法遇见，未说出口的表白成为永久的遗憾。</p><p>一别之后，两地相悬，怎知说那三四载，谁知是一生憾事。</p>]]></content>
     
     <summary type="html">
     
