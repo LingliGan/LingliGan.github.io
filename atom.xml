@@ -291,9 +291,9 @@
     
     
     
-      <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="hive" scheme="http://LingliGan.github.io/tags/hive/"/>
+    
+      <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -316,9 +316,9 @@
       <category term="shell" scheme="http://LingliGan.github.io/categories/shell/"/>
     
     
-      <category term="linux" scheme="http://LingliGan.github.io/tags/linux/"/>
-    
       <category term="编程" scheme="http://LingliGan.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="linux" scheme="http://LingliGan.github.io/tags/linux/"/>
     
   </entry>
   
