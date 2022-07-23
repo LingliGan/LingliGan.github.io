@@ -83,10 +83,12 @@
 
 
 
+<meta name="description" content="Meet the time as it seeks us.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="LingliGan">
 <meta property="og:url" content="http://lingligan.github.io/default/page/2/index.html">
 <meta property="og:site_name" content="LingliGan">
+<meta property="og:description" content="Meet the time as it seeks us.">
 <meta property="article:author" content="LingliGan">
 <meta name="twitter:card" content="summary">
 
@@ -160,7 +162,7 @@
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">Meet the time as it seeks us.</p>
       
   </div>
 
@@ -278,374 +280,6 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://LingliGan.github.io/2021/06/19/spark-%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="LingliGan">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LingliGan">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2021/06/19/spark-%E9%80%BB%E8%BE%91%E5%9B%9E%E5%BD%92/" itemprop="url">spark-逻辑回归</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-06-19T21:26:50-05:00">
-                2021-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>代码实例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">import org.apache.log4j.&#123; Level, Logger &#125;</span><br><span class="line">import org.apache.spark.&#123; SparkConf, SparkContext &#125;</span><br><span class="line">import org.apache.spark.mllib.regression.LinearRegressionWithSGD</span><br><span class="line">import org.apache.spark.mllib.util.MLUtils</span><br><span class="line">import org.apache.spark.mllib.regression.LabeledPoint</span><br><span class="line">import org.apache.spark.mllib.linalg.Vectors</span><br><span class="line">import org.apache.spark.mllib.regression.LinearRegressionModel</span><br><span class="line"></span><br><span class="line">object LinearRegression &#123;</span><br><span class="line">  def main(args: Array[String]): Unit &#x3D; &#123;</span><br><span class="line">    &#x2F;&#x2F;  构建对象</span><br><span class="line">    val conf &#x3D; new SparkConf().setAppName(&quot;LinearRegressionWithSGD&quot;)</span><br><span class="line">    val sc &#x3D; new SparkContext(conf)</span><br><span class="line">    Logger.getRootLogger.setLevel(Level.WARN)</span><br><span class="line">    &#x2F;&#x2F; 读取样本数据（1）</span><br><span class="line">      val data_path1 &#x3D; &quot;&#x2F;Users&#x2F;lelingshan&#x2F;Downloads&#x2F;pandown&#x2F;MLlib机器学习&#x2F;数据&#x2F;lpsa.data&quot;</span><br><span class="line">      val data &#x3D; sc.textFile(data_path1)</span><br><span class="line">      val examples &#x3D; data.map&#123;line &#x3D;&gt;</span><br><span class="line">        val parts &#x3D; line.split(&#39;,&#39;)</span><br><span class="line">        LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(&#39; &#39;).map(_.toDouble)))</span><br><span class="line">      &#125;.cache()</span><br><span class="line">      val numExample &#x3D; examples.count()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; 读取样本数据（1）</span><br><span class="line">&#x2F;&#x2F;    val data_path2 &#x3D; &quot;&#x2F;Users&#x2F;lelingshan&#x2F;Downloads&#x2F;pandown&#x2F;MLlib机器学习&#x2F;数据&#x2F;lpsa.data&quot;</span><br><span class="line">&#x2F;&#x2F;    val examples &#x3D; MLUtils.loadLibSVMFile(sc,data_path2).cache()</span><br><span class="line">&#x2F;&#x2F;    val numExample &#x3D; examples.count()</span><br><span class="line">    &#x2F;&#x2F; 新建线性回归模型，并设置参数</span><br><span class="line">    val numIterations &#x3D; 100</span><br><span class="line">    val stepSize &#x3D; 1</span><br><span class="line">    val miniBatchFraction &#x3D; 1.0</span><br><span class="line">    val model &#x3D; LinearRegressionWithSGD.train(examples,numIterations,stepSize,miniBatchFraction)</span><br><span class="line">    &#x2F;&#x2F; 对样本进行预测</span><br><span class="line">    val prediction &#x3D; model.predict(examples.map(_.features))</span><br><span class="line">    val predictionAndLabel &#x3D; prediction.zip(examples.map(_.label))</span><br><span class="line">    val print_predict &#x3D; predictionAndLabel.take(50)</span><br><span class="line">    println(&quot;prediction&quot;+&quot;\t&quot;+&quot;label&quot;)</span><br><span class="line">    for(i &lt;- 0 to print_predict.length-1)&#123;</span><br><span class="line">      println(print_predict(i)._1+&quot;\t&quot;+print_predict(i)._2)</span><br><span class="line">    &#125;</span><br><span class="line">    &#x2F;&#x2F; 进行测试误差</span><br><span class="line">    val loss &#x3D; predictionAndLabel.map&#123;</span><br><span class="line">        case(v,p) &#x3D;&gt; math.pow((v-p),2)&#125;.mean()</span><br><span class="line">    println(s&quot;Test RMSE &#x3D; $loss.&quot;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; 模型保存</span><br><span class="line">&#x2F;&#x2F;    val ModelPath &#x3D; &quot;&#x2F;User&#x2F;Downloads&#x2F;pandown&#x2F;MLlib机器学习&#x2F;&quot;</span><br><span class="line">&#x2F;&#x2F;    model.save(sc,ModelPath)</span><br><span class="line">&#x2F;&#x2F;    val sameModel &#x3D; LinearRegressionModel.load(sc,ModelPath)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;-</span><br></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://LingliGan.github.io/2021/06/19/spark-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="LingliGan">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LingliGan">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2021/06/19/spark-%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92/" itemprop="url">spark-线性回归</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-06-19T21:24:24-05:00">
-                2021-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>代码实例<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br></pre></td><td class="code"><pre><span class="line">import org.apache.hadoop.util.XMLUtils</span><br><span class="line">import org.apache.log4j.&#123;Level, Logger&#125;</span><br><span class="line">import org.apache.spark.ml.classification.LogisticRegressionModel</span><br><span class="line">import org.apache.spark.mllib.classification.LogisticRegressionWithLBFGS</span><br><span class="line">import org.apache.spark.mllib.evaluation.MulticlassMetrics</span><br><span class="line">import org.apache.spark.mllib.util.MLUtils</span><br><span class="line">import org.apache.spark.&#123;SparkConf, SparkContext&#125;</span><br><span class="line">import org.apache.spark.mllib.regression.LabeledPoint</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">object LogisticRegression &#123;</span><br><span class="line">  def main(args: Array[String]): Unit &#x3D; &#123;</span><br><span class="line">    &#x2F;&#x2F;1 构建对象</span><br><span class="line">    val conf &#x3D; new SparkConf().setAppName(&quot;LogisticRegression&quot;)</span><br><span class="line">    val sc &#x3D; new SparkContext(conf)</span><br><span class="line">    Logger.getRootLogger.setLevel(Level.WARN)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;2 读取样本数据，为libsvm格式</span><br><span class="line">    val  data &#x3D; MLUtils.loadLibSVMFile(sc,&quot;&#x2F;Users&#x2F;lelingshan&#x2F;Downloads&#x2F;pandown&#x2F;MLlib机器学习&#x2F;数据&#x2F;sample_libsvm_data.txt&quot;)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F;3 处理样本数据</span><br><span class="line">    val splits &#x3D; data.randomSplit(Array(0.6,0.4),seed&#x3D;11L)</span><br><span class="line">    val training &#x3D; splits(0).cache()</span><br><span class="line">    val test &#x3D; splits(1)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; 4 新建逻辑回归模型，并训练</span><br><span class="line">    val model &#x3D; new LogisticRegressionWithLBFGS().setNumClasses(10).run(training)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; 5 对测试样本进行测试</span><br><span class="line">    val predictionAndLabels &#x3D; test.map&#123;</span><br><span class="line">      case LabeledPoint(label, features) &#x3D;&gt;</span><br><span class="line">        val prediction &#x3D; model.predict(features)</span><br><span class="line">        (prediction,label)</span><br><span class="line">    &#125;</span><br><span class="line">    val print_predict &#x3D; predictionAndLabels.take(20)</span><br><span class="line">    println(&quot;prediction&quot; + &quot;\t&quot; + &quot;label&quot;)</span><br><span class="line">    for (i &lt;- 0 to print_predict.length - 1)&#123;</span><br><span class="line">      println(print_predict(i)._1+&quot;\t&quot;+print_predict(i)._2)</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; 6 计算误差</span><br><span class="line">    val metrics &#x3D; new MulticlassMetrics(predictionAndLabels)</span><br><span class="line">    val precision &#x3D; metrics.precision</span><br><span class="line">    println(&quot;Precision &#x3D; &quot; + precision)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;    &#x2F;&#x2F; 7保存模型</span><br><span class="line">&#x2F;&#x2F;    val ModelPath &#x3D; &quot;&quot;</span><br><span class="line">&#x2F;&#x2F;    model.save(sc,ModelPath)</span><br><span class="line">&#x2F;&#x2F;    val sameModel &#x3D; LogisticRegressionModel.load(sc,ModelPath)</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://LingliGan.github.io/2021/05/29/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="LingliGan">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LingliGan">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2021/05/29/%E6%A8%A1%E5%9E%8B%E8%AF%84%E4%BC%B0/" itemprop="url">模型评估</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2021-05-29T11:56:18-05:00">
-                2021-05-29
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>模型评估是验证模型准确率最重要的一步，常用的模型评估指标有AUC、ROC、精准率、召回率、KS、lift、模型稳定性PSI等。此外还可以利用F检验来验证模型是否显著的统计性假设检验。<br><strong> 1、ROC（接受者操作曲线）</strong><br><strong> 2、AUC </strong><br>AUC的物理意义伟ROC曲线下的面积，一般情况下AUC越大，表示的模型的效果越好。AUC主要由两部分所影响。</p>
-<ul>
-<li>精准率</li>
-<li>召回率</li>
-</ul>
-<p><strong> 3、KS </strong><br>KS金融模型评估领域中运用十分广泛，尤其在信贷行业，它可以验证模型区分好人坏人的能力，KS<br>计算公式为：ks = max(Cum.Bi/Bad_total - Cum.Gi/Good_total)<br>计算KS的代码如下：<br>法一：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">from scipy.stats import ks_2samp</span><br><span class="line"> </span><br><span class="line">get_ks &#x3D; lambda y_pred,y_true: ks_2samp(y_pred[y_true&#x3D;&#x3D;1], y_pred[y_true!&#x3D;1]).statistic</span><br><span class="line"> </span><br><span class="line">get_ks(x,y)</span><br></pre></td></tr></table></figure></p>
-<p>法二：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">Import pandas as pd</span><br><span class="line">Import numpy as np</span><br><span class="line">From sklearn.metrics import roc_curve</span><br><span class="line">From spicy.stats import ks_2samp</span><br><span class="line"></span><br><span class="line">def ks_calc_cross(data,pred,y_label):</span><br><span class="line">    &#39;&#39;&#39;</span><br><span class="line">    功能: 计算KS值，输出对应分割点和累计分布函数曲线图</span><br><span class="line">    输入值:</span><br><span class="line">    data: 二维数组或dataframe，包括模型得分和真实的标签</span><br><span class="line">    pred: 一维数组或series，代表模型得分（一般为预测正类的概率）,已经分成10个区间分数</span><br><span class="line">    y_label: 一维数组或series，代表真实的标签（&#123;0,1&#125;或&#123;-1,1&#125;）</span><br><span class="line">    输出值:</span><br><span class="line">    &#39;ks&#39;: KS值，&#39;crossdens&#39;: 好坏客户累积概率分布以及其差值gap</span><br><span class="line">    &#39;&#39;&#39;</span><br><span class="line">    crossfreq &#x3D; pd.crosstab(data[pred[0]],data[y_label[0]])</span><br><span class="line">    crossdens &#x3D; crossfreq.cumsum(axis&#x3D;0) &#x2F; crossfreq.sum()</span><br><span class="line">    crossdens[&#39;gap&#39;] &#x3D; abs(crossdens[0] - crossdens[1])</span><br><span class="line">    ks &#x3D; crossdens[&#39;gap&#39;].max()</span><br><span class="line">    </span><br><span class="line">    return ks,crossdens</span><br></pre></td></tr></table></figure></p>
-<p><strong> 4、模型稳定性PSI </strong><br>稳定性指标(populations stability index,PSI)可衡量测试样本及模型开发样本评分的分布差异。PSI表示按分数分档后，针对不同时间样本，population分布是否有变化，就是看各个分数区间内人数占总人数占比是否有显著变化。<br>计算公式为：PSI = sum[(Ac - Ex)*LN(Ac/Ex)]，其中Ac：表示分数区间实际的比例，Ex：表示分数区间预期的比例，也可以是之前模型分数区间的比例。<br>小于10%，无需更新模型；<br>10%-25%：检查一下其他度量方式<br>大于25%：需要更新模型</p>
-<p><strong> 5、lift </strong><br>lift也是一种评估模型或者单个强变量是否区分好人坏人有效性的指标，与IV类似，做法是将模型分或者变量切割成几个区间，分别计算各个区间内的放款逾期率和金额逾期率，将各个区间的逾期率除于大盘的逾期率，就可以得到lift，我们俗称梯度。如果lift呈递增或者递减，我们就可以说模型是有效的，lift增长或者下降越快，则模型区分好人和坏人的效果越好。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
     
       
 
@@ -1587,7 +1221,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">LingliGan</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">Meet the time as it seeks us.</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -1597,7 +1231,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-count">17</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>

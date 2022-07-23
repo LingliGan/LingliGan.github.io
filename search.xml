@@ -4,45 +4,6 @@
   
     
     <entry>
-      <title>About</title>
-      <link href="/2022/07/22/About-2/"/>
-      <url>/2022/07/22/About-2/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>About</title>
-      <link href="/2022/07/16/About-1/"/>
-      <url>/2022/07/16/About-1/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Home</title>
-      <link href="/2022/07/16/Home-1/"/>
-      <url>/2022/07/16/Home-1/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Home</title>
       <link href="/2022/07/16/Home/"/>
       <url>/2022/07/16/Home/</url>
@@ -232,9 +193,9 @@
       
         <tags>
             
-            <tag> 编程 </tag>
-            
             <tag> hive </tag>
+            
+            <tag> 编程 </tag>
             
         </tags>
       
@@ -259,9 +220,9 @@
       
         <tags>
             
-            <tag> linux </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> linux </tag>
             
         </tags>
       
