@@ -179,14 +179,7 @@
 
   
   <url>
-    <loc>http://lingligan.github.io/tags/spark/</loc>
-    <lastmod>2022-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lingligan.github.io/tags/hive/</loc>
+    <loc>http://lingligan.github.io/tags/python/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -207,7 +200,14 @@
   </url>
   
   <url>
-    <loc>http://lingligan.github.io/tags/python/</loc>
+    <loc>http://lingligan.github.io/tags/spark/</loc>
+    <lastmod>2022-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lingligan.github.io/tags/hive/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -242,13 +242,6 @@
   </url>
   
   <url>
-    <loc>http://lingligan.github.io/tags/%E6%A8%A1%E5%9E%8B/</loc>
-    <lastmod>2022-07-23</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lingligan.github.io/tags/%E8%AF%84%E5%88%86%E5%8D%A1/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>daily</changefreq>
@@ -257,6 +250,13 @@
   
   <url>
     <loc>http://lingligan.github.io/tags/%E9%A3%8E%E6%8E%A7%E6%A8%A1%E5%9E%8B/</loc>
+    <lastmod>2022-07-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lingligan.github.io/tags/%E6%A8%A1%E5%9E%8B/</loc>
     <lastmod>2022-07-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
